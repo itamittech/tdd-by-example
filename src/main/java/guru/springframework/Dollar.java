@@ -5,13 +5,13 @@ package guru.springframework;
  */
 public class Dollar {
 
-    int amount;
+   private final int amount;
 
     public Dollar(int amount) {
         this.amount = amount;
     }
 
-    void times( int multiplier) {
-        amount *= multiplier;
+    int times( int multiplier) {
+       return  amount * multiplier;
     }
 }
