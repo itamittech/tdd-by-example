@@ -1,10 +1,8 @@
-package test.java.guru.springframework;
+package guru.springframework;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
-
-import main.java.guru.springframework.Dollar;
 
 public class MoneyTest {
 

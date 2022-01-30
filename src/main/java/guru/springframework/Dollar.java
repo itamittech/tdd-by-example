@@ -1,11 +1,11 @@
-package main.java.guru.springframework;
+package guru.springframework;
 
 public class Dollar {
 	
 	public int value;
 	public Dollar(int value)
 	{
-		this.value=0;
+		this.value=value;
 	}
 	
 	public void multiply(int multiplyValue)

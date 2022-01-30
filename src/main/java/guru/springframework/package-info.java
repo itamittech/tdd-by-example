@@ -1,1 +1,1 @@
-package main.java.guru.springframework;
+package guru.springframework;
